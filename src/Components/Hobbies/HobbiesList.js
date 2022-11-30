@@ -1,4 +1,4 @@
-import img1 from '../../Assets/hobbies-1.jpg'
+import img4 from '../../Assets/hobbies-4.jpg'
 
 const HobbiesList = () => {
 
@@ -13,7 +13,7 @@ const HobbiesList = () => {
             </ul>
 
             <div className='text-center'>
-                <img className='rounded' width="500px" src={img1} alt='img1' />
+                <img className='rounded' style={{"width": "100%"}} src={img4} alt='img4' />
             </div>
         </>
        
