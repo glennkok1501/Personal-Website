@@ -1,6 +1,6 @@
 const Footer = () => {
     return ( 
-        <footer className="container-fluid text-center p-2 bg-dark text-white">
+        <footer className="mt-5 container-fluid text-center p-2 bg-dark text-white">
             <small>Created by Glenn Kok</small>
         </footer>
      );

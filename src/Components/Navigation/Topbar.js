@@ -8,17 +8,17 @@ const Topbar = () => {
     const handleNavigation = useCallback(
     e => {
         const window = e.currentTarget;
-        // if (y > window.scrollY) {
-        //     console.log(y);
-        // } else if (y < window.scrollY) {
-        // console.log(y);
-        // }
-        if (y > 80) {
-            document.getElementById("navbar").classList.remove('p-3');
-            document.getElementById("navbar").classList.add('p-0');
-        } else if (y < 80) {
-            document.getElementById("navbar").classList.remove('p-0');
-            document.getElementById("navbar").classList.add('p-3');
+        const nav = document.getElementById("navbar")
+        if (y > 70) {
+            nav.classList.remove('p-3');
+            nav.classList.add('p-0');
+            nav.style.opacity = "0.85";
+
+        } else if (y < 70) {
+            nav.classList.remove('p-0');
+            nav.classList.add('p-3');
+            nav.style.opacity = "1";
+
         }
         setY(window.scrollY);
     }, [y]
@@ -33,9 +33,9 @@ const Topbar = () => {
     };
     }, [handleNavigation]);
     return ( 
-        <div id="navbar" className="navbar navbar-expand-lg p-3 navbar-light fixed-top shadow mb-3 bg-light">
+        <div id="navbar" className="navbar navbar-expand-lg p-3 navbar-dark fixed-top shadow mb-3 bg-dark">
             <div className="container">
-                <button className="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler border-none ms-auto" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
 

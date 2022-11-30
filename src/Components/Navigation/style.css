@@ -1,3 +1,5 @@
 #navbar {
   transition: 0.4s;
 }
+
+button:focus {outline:0;}

@@ -6,7 +6,7 @@ import Profile from "./Profile";
 const Index = () => {
     return ( 
         <>
-            <div className="container" style={{"marginTop": "80px"}}>
+            <div className="container" style={{"marginTop": "70px"}}>
                 <section id="profile">
                     <Profile />
                 </section>
