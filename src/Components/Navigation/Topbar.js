@@ -9,15 +9,16 @@ const Topbar = () => {
     e => {
         const window = e.currentTarget;
         const nav = document.getElementById("navbar")
-        if (y > 70) {
-            nav.classList.remove('p-3');
-            nav.classList.add('p-0');
-            nav.style.opacity = "0.85";
-
-        } else if (y < 70) {
+        if (y > window.scrollY) {
             nav.classList.remove('p-0');
             nav.classList.add('p-3');
             nav.style.opacity = "1";
+        }
+        
+        else if (y < window.scrollY) {
+            nav.classList.remove('p-3');
+            nav.classList.add('p-0');
+            nav.style.opacity = "0.85";
 
         }
         setY(window.scrollY);
