@@ -1,7 +1,11 @@
 import Captsone from "../Components/Projects/Capstone";
+import CAT from "../Components/Projects/CAT";
+import Chimera from "../Components/Projects/Chimera";
 import DF from "../Components/Projects/DF";
 import EH from "../Components/Projects/EH";
 import FirewallConfig from "../Components/Projects/FirewallConfig";
+import MATT from "../Components/Projects/MATT";
+import Spendid from "../Components/Projects/Spendid";
 import Suricata from "../Components/Projects/Suricata";
 
 const Projects = () => {
@@ -25,6 +29,18 @@ const Projects = () => {
 
             <h3 className="mt-5">Digital Forensics</h3>
             <DF />
+
+            <h3 className="mt-5">Malware Analysis on Malicious Document</h3>
+            <MATT />
+
+            <h3 className="mt-5">Android Application - Spendid</h3>
+            <Spendid />
+
+            <h3 className="mt-5">Cloud Application Technologies - Amazon Web Services (AWS)</h3>
+            <CAT />
+
+            <h3 className="mt-5">Chimera Encryption</h3>
+            <Chimera />
         </>
         
      );

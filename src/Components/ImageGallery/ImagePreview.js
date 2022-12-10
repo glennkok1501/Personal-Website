@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useState } from "react"
 
 const ImagePreview = ({image, setSelected}) => {
 
@@ -26,7 +26,7 @@ const ImagePreview = ({image, setSelected}) => {
 
     return ( 
         <div onClick={() => setSelected(image)}>
-            <img className="rounded btn" src={image} style={preview_style} onMouseEnter={() => onHover()} onMouseLeave={() => leaveHover()} />  
+            <img className="rounded btn" alt="preview" src={image} style={preview_style} onMouseEnter={() => onHover()} onMouseLeave={() => leaveHover()} />  
         </div>
 
      );
