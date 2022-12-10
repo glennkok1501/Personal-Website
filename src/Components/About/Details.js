@@ -35,7 +35,7 @@ const Details = () => {
 
                     <tr>
                         <th>Email</th>
-                        <td>kokglenn15@gmail</td>
+                        <td>kokglenn15@gmail.com</td>
                     </tr>
                 </tbody>
             </table>
