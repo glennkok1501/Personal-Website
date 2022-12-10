@@ -7,7 +7,7 @@ import gallery_2 from '../../Assets/projects/capstone/capstone_gallery_2.png'
 import gallery_3 from '../../Assets/projects/capstone/capstone_gallery_3.png'
 import gallery_4 from '../../Assets/projects/capstone/capstone_gallery_4.png'
 import gallery_5 from '../../Assets/projects/capstone/capstone_gallery_5.png'
-
+import gallery_6 from '../../Assets/projects/capstone/capstone_gallery_6.png'
 
 
 const Captsone = () => {
@@ -38,7 +38,7 @@ const Captsone = () => {
                 </div>
             </div>
             <div className='mt-3'>
-                <ImageGallery images={[gallery_1, gallery_2, gallery_3, gallery_4, gallery_5]} />
+                <ImageGallery images={[gallery_1, gallery_2, gallery_3, gallery_4, gallery_5, gallery_6]} />
             </div>
         </>
         
