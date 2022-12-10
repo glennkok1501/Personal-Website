@@ -1,7 +1,6 @@
 import img1 from '../../Assets/hobbies-1.jpg'
 import img2 from '../../Assets/hobbies-2.jpg'
 import img3 from '../../Assets/hobbies-3.jpg'
-import img4 from '../../Assets/hobbies-4.jpg'
 
 const HobbiesGallery = () => {
     return ( 

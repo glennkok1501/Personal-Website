@@ -2,6 +2,7 @@ import Footer from "../Components/Footer";
 import About from "./About";
 import Milestone from "./Milestone";
 import Profile from "./Profile";
+import Projects from "./Projects";
 
 const Index = () => {
     return ( 
@@ -16,6 +17,10 @@ const Index = () => {
                 <hr />
                 <section id="milestones">
                     <Milestone />
+                </section>
+                <hr />
+                <section id="projects">
+                    <Projects />
                 </section>
             </div>
             <Footer />
