@@ -11,9 +11,7 @@ const Awards = () => {
         <div className="row">
             <Strengthscard title="CSIT Diploma Scholarship" icon={mdiAccountSchoolOutline} height={HEIGHT}/>
             <Strengthscard title="10+ Academic Awards" icon={mdiMedal} height={HEIGHT}/>
-            <Strengthscard title="Higher Nitec Merit" icon={mdiCertificateOutline} height={HEIGHT}/>
-
-
+            <Strengthscard title="Graduated with Merit" icon={mdiCertificateOutline} height={HEIGHT}/>
         </div>
      );
 }

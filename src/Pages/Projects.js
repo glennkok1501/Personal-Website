@@ -4,6 +4,7 @@ import Chimera from "../Components/Projects/Chimera";
 import DF from "../Components/Projects/DF";
 import EH from "../Components/Projects/EH";
 import FirewallConfig from "../Components/Projects/FirewallConfig";
+import KubeBgpHijack from "../Components/Projects/KubeBgpHijack";
 import MATT from "../Components/Projects/MATT";
 import Spendid from "../Components/Projects/Spendid";
 import Suricata from "../Components/Projects/Suricata";
@@ -15,7 +16,10 @@ const Projects = () => {
                 <h2 className="text-center">PROJECTS</h2>
             </div>
 
-            <h3 className="mt-3">Social Media and Community Platform Application</h3>
+            <h3 className="mt-3">Kubernetes Border Gateway Protocol (BGP) Hijacking</h3>
+            <KubeBgpHijack />
+
+            <h3 className="mt-5">Social Media and Community Platform Application</h3>
             <Captsone />
 
             <h3 className="mt-5">Ethical Hacking Project</h3>

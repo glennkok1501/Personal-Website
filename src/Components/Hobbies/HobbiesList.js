@@ -1,4 +1,4 @@
-import img4 from '../../Assets/hobbies-4.jpg'
+import img4 from '../../Assets/hobbies-5.jpg'
 
 const HobbiesList = () => {
 

@@ -20,14 +20,14 @@ const Education = () => {
                     <TimelineConnector />
                     </TimelineSeparator>
                     <TimelineContent>
-                        April 2020 - Present
+                        April 2020 - March 2023
                         <br/>
                         <b>Ngee Ann Polytechnic</b>
                         <br/>
                         <ul className='text-muted'>
-                            <li>Diploma in Cybersecurity & Digital Forensics</li>
+                            <li>Diploma with Merit in Cybersecurity & Digital Forensics</li>
+                            <li>CSA Prize for Most Outstanding Performance</li>
                             <li>Cumulative GPA 4.0</li>
-                            <li>Expected to graduate in 2023</li>
                         </ul>
                     </TimelineContent>
                 </TimelineItem>

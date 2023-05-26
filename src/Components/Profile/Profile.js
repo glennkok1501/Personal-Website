@@ -1,4 +1,4 @@
-import profile_img from '../../Assets/fomal-pic_orig.jpg'
+import profile_img from '../../Assets/fomal-pic_orig.png'
 import Socials from './Socials';
 
 const Profile = () => {
@@ -6,7 +6,7 @@ const Profile = () => {
         <div className="row border border-dark">
             <div className="col-lg-6 p-0">
                 <div className="bg-dark text-center">
-                    <img className='shadow-lg m-5' src={profile_img} height="400px" alt="profile_img" />
+                    <img className='shadow-lg m-5 rounded' style={{"width": "74%", "height": "auto"}} src={profile_img} alt="profile_img" />
                 </div>
             </div>
             <div className="col-lg-6 d-flex align-items-center">
