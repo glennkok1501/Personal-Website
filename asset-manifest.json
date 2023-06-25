@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Personal-Website/static/css/main.eefba7ca.css",
-    "main.js": "/Personal-Website/static/js/main.5973c32b.js",
+    "main.js": "/Personal-Website/static/js/main.686fc80a.js",
     "static/js/787.1ed0c42c.chunk.js": "/Personal-Website/static/js/787.1ed0c42c.chunk.js",
     "static/media/Kubernetes BGP Hijacking.mp4": "/Personal-Website/static/media/Kubernetes BGP Hijacking.adc8b0b2257c87aacbee.mp4",
     "static/media/df.png": "/Personal-Website/static/media/df.3d0d2a5a847b3f60aab4.png",
@@ -22,6 +22,7 @@
     "static/media/img_1.jpg": "/Personal-Website/static/media/img_1.b5762948c7eab74d8d33.jpg",
     "static/media/img_7.png": "/Personal-Website/static/media/img_7.4132bc75d82fc011781c.png",
     "static/media/img_3.png": "/Personal-Website/static/media/img_3.e9694e3161b507202bf7.png",
+    "static/media/GLENN KOK RESUME.pdf": "/Personal-Website/static/media/GLENN KOK RESUME.09dba224d3d8f55d2de9.pdf",
     "static/media/img_crypt.png": "/Personal-Website/static/media/img_crypt.40ccce6649f5797d28ee.png",
     "static/media/img_10.png": "/Personal-Website/static/media/img_10.45706ff72d06f2d804a5.png",
     "static/media/Picture1.png": "/Personal-Website/static/media/Picture1.3fa829753d0775a2e0c5.png",
@@ -38,11 +39,11 @@
     "static/media/hobbies-2.jpg": "/Personal-Website/static/media/hobbies-2.4526c1411b5f0d515ea0.jpg",
     "index.html": "/Personal-Website/index.html",
     "main.eefba7ca.css.map": "/Personal-Website/static/css/main.eefba7ca.css.map",
-    "main.5973c32b.js.map": "/Personal-Website/static/js/main.5973c32b.js.map",
+    "main.686fc80a.js.map": "/Personal-Website/static/js/main.686fc80a.js.map",
     "787.1ed0c42c.chunk.js.map": "/Personal-Website/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eefba7ca.css",
-    "static/js/main.5973c32b.js"
+    "static/js/main.686fc80a.js"
   ]
 }
