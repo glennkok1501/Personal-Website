@@ -1,5 +1,6 @@
 import profile_img from '../../Assets/fomal-pic_orig.png'
 import Socials from './Socials';
+import Resume from './resume';
 
 const Profile = () => {
     return ( 
@@ -15,9 +16,12 @@ const Profile = () => {
                         Hi, I'm <b>Glenn Kok</b>
                     </h1>
                     <p>
-                        My name is Glenn, I am currently a student pursuing a Diploma in Cyber Security & Digital Forensics. My interest in cyber security developed during my course of study in the Institute of Technical Education. My aim is to pursue a career in the cyber security industry in the future.
+                        My name is Glenn, I am currently a student pursuing a Diploma in Cyber Security & Digital Forensics.
+                         My interest in cyber security developed during my course of study in Cyber and Network Security under the Institute of Technical Education.
+                         My aim is to pursue a career in the cyber security industry in the future after completing my studies in Nanyang Technological University.
                     </p>
                     <Socials />
+                    <Resume />
                 </div>
             </div>
 
