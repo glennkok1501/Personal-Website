@@ -14,11 +14,11 @@ const Index = () => {
                 <section id="about-me">
                     <About />
                 </section>
-                {/* <hr />
+                <hr />
                 <section id="milestones">
                     <Milestone />
                 </section>
-                <hr />
+                {/* <hr />
                 <section id="projects">
                     <Projects />
                 </section> */}

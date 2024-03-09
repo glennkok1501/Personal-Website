@@ -24,7 +24,7 @@ const Experience = () => {
                         <br/>
                         <b>Security Research Intern / Centre for Strategic Infocomm Technologies (CSIT)</b>
                         <br/>
-                        <p className='text-muted'>
+                        <p>
                             My tasks includes documenting and studying the underlying workings of Kubernetes communication 
                             as well as to investigate existing and potential security vulnerabilities involving the networking process.
                         </p>
@@ -40,7 +40,7 @@ const Experience = () => {
                         <br/>
                         <b>Intern / Cyber Test Systems</b>
                         <br/>
-                        <p className='text-muted'>
+                        <p>
                             Building Cyber Ranges was a thrilling experience for me as I got to
                             learn how a system that simulates real world attacks was constructed
                             by working on many hands-on projects and configuring various

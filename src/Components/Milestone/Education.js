@@ -25,9 +25,9 @@ const Education = () => {
                         <b>Ngee Ann Polytechnic</b>
                         <br/>
                         <ul className='text-muted'>
-                            <li>Diploma with Merit in Cybersecurity & Digital Forensics</li>
-                            <li>CSA Prize for Most Outstanding Performance</li>
-                            <li>Cumulative GPA 4.0</li>
+                            <li><p className='m-0'>Diploma with Merit in Cybersecurity & Digital Forensics</p></li>
+                            <li><p className='m-0'>CSA Prize for Most Outstanding Performance</p></li>
+                            <li><p className='m-0'>Cumulative GPA 4.0</p></li>
                         </ul>
                     </TimelineContent>
                 </TimelineItem>
@@ -42,9 +42,9 @@ const Education = () => {
                         <b>Institute of Technical Education</b>
                         <br/>
                         <ul className='text-muted'>
-                            <li>Higher Nitec in Cyber and Network Security</li>
-                            <li>Certificate of Merit</li>
-                            <li>Graduated with GPA 3.931</li>
+                            <li><p className='m-0'>Higher Nitec in Cyber and Network Security</p></li>
+                            <li><p className='m-0'>Certificate of Merit</p></li>
+                            <li><p className='m-0'>Graduated with GPA 3.931</p></li>
                         </ul>
                     </TimelineContent>
                 </TimelineItem>
@@ -58,7 +58,7 @@ const Education = () => {
                         <b>Jurong Secondary School</b>
                         <br/>
                         <ul className='text-muted'>
-                            <li>GCE N(A)-Level Certificate</li>
+                            <li><p className='m-0'>GCE N(A)-Level Certificate</p></li>
                         </ul>
                     </TimelineContent>
                 </TimelineItem>
