@@ -7,11 +7,11 @@ import Projects from "./Projects";
 const Index = () => {
     return ( 
         <>
-            <div className="container" style={{"marginTop": "70px"}}>
+            <div className="container" style={{"marginTop": "50px"}}>
                 <section id="profile">
                     <Profile />
                 </section>
-                <section id="about-me">
+                {/* <section id="about-me">
                     <About />
                 </section>
                 <hr />
@@ -21,7 +21,7 @@ const Index = () => {
                 <hr />
                 <section id="projects">
                     <Projects />
-                </section>
+                </section> */}
             </div>
             <Footer />
         </>

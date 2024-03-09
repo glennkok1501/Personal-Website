@@ -5,7 +5,6 @@ import Index from './Pages/Index';
 function App() {
   return (
       <div className='app'>
-        <Topbar />
         <Index />
       </div>
   );
