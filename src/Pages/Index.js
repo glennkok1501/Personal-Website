@@ -11,10 +11,10 @@ const Index = () => {
                 <section id="profile">
                     <Profile />
                 </section>
-                {/* <section id="about-me">
+                <section id="about-me">
                     <About />
                 </section>
-                <hr />
+                {/* <hr />
                 <section id="milestones">
                     <Milestone />
                 </section>

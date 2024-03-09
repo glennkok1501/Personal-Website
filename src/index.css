@@ -29,4 +29,8 @@ html::-webkit-scrollbar {
     color:#939cad
   }
 
+  body section {
+    margin-top: 50px;
+  }
+
   
