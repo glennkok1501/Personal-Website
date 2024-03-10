@@ -11,17 +11,18 @@ const Index = () => {
                 <section id="profile">
                     <Profile />
                 </section>
+                
                 <section id="about-me">
                     <About />
                 </section>
-                <hr />
+
                 <section id="milestones">
                     <Milestone />
                 </section>
-                {/* <hr />
-                <section id="projects">
+
+                <section id="projects" className="mt-0">
                     <Projects />
-                </section> */}
+                </section>
             </div>
             <Footer />
         </>
