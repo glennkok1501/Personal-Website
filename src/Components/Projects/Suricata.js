@@ -1,13 +1,11 @@
 import img from '../../Assets/projects/ns/ns_1.jpg'
-import ImgView from './ImgView';
+import ImgView from '../ImageGallery/ImgView';
 
 const Suricata = () => {
     return ( 
-        <div className="row">
-            <div className="col-md-3">
-                <ImgView img={img} />
-            </div>
-            <div className='col-md-9'>
+        <>
+<ImgView img={img} />
+            <div className='mt-3'>
                 <p>
                     Accomplishing this project was no easy feat. Since this was my first time installing and configuring an Intrusion Detection System (IDS).
                     After extensive research, I deployed my IDS using Suricata since being a powerful, versatile, and open-source threat detection engine.
@@ -16,9 +14,10 @@ const Suricata = () => {
                     it also gave me the chance to explore and understand of integration process between FileBeats, Logstash, Elasticsearch, and Kibana.
                     <br />
                     Rule creation and testing was also an interesting component I have picked up along with rules created by the open-source community. 
-                    With the usage of Emerging Threat rules, I have tested Suricata extensively with several attack scenarios with includes:
+                    With the usage of Emerging Threat rules, I have tested Suricata extensively with several attack scenarios:
                 </p>
                 
+                <b>Attack Scenarios:</b>
                 <ul>
                     <li>Reconnaissance - Port Scanning</li>
                     <li>SMB Eternal Blue Exploit</li>
@@ -26,7 +25,8 @@ const Suricata = () => {
                     <li>Hydra Bruteforce</li>
                 </ul>
             </div>
-        </div>
+        </>
+                
      );
 }
  

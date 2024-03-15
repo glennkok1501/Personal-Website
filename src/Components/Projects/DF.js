@@ -1,17 +1,17 @@
 import img from '../../Assets/projects/df/df.png'
-import ImgView from './ImgView';
+import ImgView from '../ImageGallery/ImgView';
 
 const DF = () => {
     return ( 
-        <div className="row">
-            <div className="col-md-6">
-                <ImgView img={img} />
-            </div>
-            <div className="col-md-6">
+        <>
+            <ImgView img={img} />
+            <div className='mt-3'>
                 <p>
                     Since learning forensics analysis using EnCase, this project enabled me to broaden my scope by performing analysis using several differnt open-source tools.
                 </p>
-                <ul>
+            </div>
+            <b>Tools Used:</b>
+            <ul>
                     <li>
                         <b>FTK Forensic Toolkit</b>
                         <br />
@@ -33,9 +33,7 @@ const DF = () => {
                         Decode steganography
                     </li>
                 </ul>
-
-            </div>
-        </div>
+        </>
      );
 }
  

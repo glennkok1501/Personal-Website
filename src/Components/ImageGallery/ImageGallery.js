@@ -2,8 +2,7 @@
 import { mdiClose } from "@mdi/js";
 import Icon from "@mdi/react";
 import { useState } from "react";
-import { Modal, ModalBody } from "react-bootstrap";
-import ImgView from "../Projects/ImgView";
+import { Modal } from "react-bootstrap";
 import ImagePreview from "./ImagePreview";
 
 const ImageGallery = ({images}) => {
@@ -11,6 +10,10 @@ const ImageGallery = ({images}) => {
 
     return ( 
         <>
+            <hr />
+            <h3>
+                Images
+            </h3>
             <div className="d-flex"  style={{"overflowY": "auto"}}>
                 {
                     images.map(image => (
@@ -21,15 +24,15 @@ const ImageGallery = ({images}) => {
                 }
             </div>
 
-            <Modal centered size="lg" show={selected}>
-                <ModalBody>
-                    <div className="text-end">
-                        <div className="btn" onClick={() => setSelected(null)}>
-                            <Icon size={1} path={mdiClose}/>
+            <Modal className="bg-dark" backdrop="static" animation={false} centered size="lg" show={selected}>
+                    <div className="position-relative">
+                        <div className="btn position-absolute top-0 end-0" onClick={() => setSelected(null)}>
+                            <Icon size={1.5} path={mdiClose} className="text-dark"/>
                         </div>
+
                     </div>
-                    <ImgView img={selected} />
-                </ModalBody>
+                    <img src={selected} alt='project_img' className="img-fluid rounded" />
+
             </Modal>
         </>
         

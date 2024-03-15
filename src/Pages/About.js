@@ -6,36 +6,50 @@ import HobbiesList from "../Components/Hobbies/HobbiesList";
 
 const About = () => {
     return ( 
-        <div className="mt-5">
-            <h2 className="text-center">ABOUT ME</h2>
-
-            <div className="row mb-3">
+        <>
+            <h1>
+                About Me
+            </h1>
+            
+            <div className="row">
                 <div className="col-lg-6">
-                    <h3>Interests & Hobbies</h3>
-                    <hr />
-                    <HobbiesList />
+                    <Details/>
                 </div>
-
                 <div className="col-lg-6">
                     <HobbiesGallery />
                 </div>
             </div>
+        </>
+        // <div className="mt-5">
+        //     <h2 className="text-center">ABOUT ME</h2>
 
-            <div className="row mt-5">
-                <div className="col-lg-6">
-                    <Details />
-                </div>
+        //     <div className="row mb-3">
+        //         <div className="col-lg-6">
+        //             <h3>Interests & Hobbies</h3>
+        //             <hr />
+        //             <HobbiesList />
+        //         </div>
 
-                <div className="col-lg-6">
-                    <Skills />
-                </div>
-            </div>
+        //         <div className="col-lg-6">
+        //             <HobbiesGallery />
+        //         </div>
+        //     </div>
 
-            <>
-                <Strengths />
-            </>
+        //     <div className="row mt-5">
+        //         <div className="col-lg-6">
+        //             <Details />
+        //         </div>
+
+        //         <div className="col-lg-6">
+        //             <Skills />
+        //         </div>
+        //     </div>
+
+        //     <>
+        //         <Strengths />
+        //     </>
             
-        </div>
+        // </div>
      );
 }
  
