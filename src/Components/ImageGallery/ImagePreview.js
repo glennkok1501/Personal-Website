@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-const ImagePreview = ({image, setSelected}) => {
+const ImagePreview = ({image, index, setShow, setSelected}) => {
 
     const [filter, setFilter] = useState('brightness(100%)')
 
@@ -9,7 +9,7 @@ const ImagePreview = ({image, setSelected}) => {
         "width": "150px",
         'objectFit': "cover",
         'filter': filter,
-        'border-radius': "35%"
+        'borderRadius': "35%"
     }
 
     const onHover = () => {
@@ -21,8 +21,13 @@ const ImagePreview = ({image, setSelected}) => {
 
     }
 
+    const selectImage = () => {
+        setSelected(index)
+        setShow(true)
+    }
+
     return ( 
-        <div onClick={() => setSelected(image)}>
+        <div onClick={() => selectImage()}>
             <img className="btn" alt="preview" src={image} style={preview_style} onMouseEnter={() => onHover()} onMouseLeave={() => leaveHover()} />  
         </div>
 
