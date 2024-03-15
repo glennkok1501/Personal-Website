@@ -1,5 +1,5 @@
-// import profile_img from '../../Assets/fomal-pic_orig.png'
-import profile_img from '../../Assets/avatar.jpg'
+import profile_img from '../../Assets/fomal-pic_orig.png'
+// import profile_img from '../../Assets/avatar.jpg'
 
 import Socials from './Socials';
 
