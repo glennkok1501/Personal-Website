@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-const ProjectPreview = ({image, title}) => {
+const ProjectPreview = ({proj, setShow, setProj}) => {
 
     const [objectFit, setObjectFit] = useState('cover')
 
@@ -19,18 +19,25 @@ const ProjectPreview = ({image, title}) => {
         "background":"white",
     }
 
+    const clickPreview = () => {
+        setShow(true)
+        setProj(proj)
+    }
+
     return ( 
         <>
-            <div onMouseEnter={() => onHover()} onMouseLeave={() => leaveHover()} className="card bg-dark " style={{"width":"200px", "borderRadius":"10%", "height":"330px"}}>
-                <img src={image} className="card-img-top" alt={title} style={preview_style}/>
+            <div onMouseEnter={() => onHover()} onMouseLeave={() => leaveHover()} className="card bg-dark pb-3" style={{"width":"200px", "borderRadius":"10%", "height":"330px"}}>
+                <img src={proj.image} className="card-img-top" alt={proj.title} style={preview_style}/>
                 <div className="card-body">
                     <div className="card-title">
-                        <h5>{title}</h5>
-                    </div>
-                    <div className="text-center align-text-bottom">
-                        <a href="" className="btn btn-outline-light mt-3">View Details</a>
+                        <h5>{proj.title}</h5>
                     </div>
 
+                </div>
+                <div className="text-center m-0">
+                    <button className="btn btn-outline-light" onClick={() => clickPreview()}>
+                        View Details
+                    </button>
                 </div>
             </div>
         </>

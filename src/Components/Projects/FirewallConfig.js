@@ -1,23 +1,22 @@
 import img from '../../Assets/projects/ns/ns_2.png'
-import ImgView from './ImgView';
+import ImgView from '../ImageGallery/ImgView';
 
 const FirewallConfig = () => {
     return ( 
-        <div className="row">
-            <div className="col-md-6">
-                <ImgView img={img} />
-            </div>
-            <div className='col-md-6'>
+        <>
+            <ImgView img={img} />
+            <div className='mt-3'>
                 <p>
-                The diagram depicts the network diagram of this project. There will be two remote sites being Singapore and Kuala Lumpur (KL). 
-                A Palo Alto Firewall will be deployed in each site with a LAN zone for staff and employees to connect to the internal network. 
-                However, the Singapore site will have an additional Demilitarized (DMZ) zone for external and internal access where an FTP server will be deployed. 
-                Users from the LAN and Internet will be able to access resources on the FTP server in the DMZ zone.
-                Moreover, several policies were implemented on the firewall to enhance the security of the organization.
-                Lastly, both firewalls will be connected to the Internet and a secure LAN-to-LAN Virtual Private Network will be configured using an IPSec tunnel between Singapore office and KL office.
+                    The diagram depicts the network diagram of this project. There will be two remote sites being Singapore and Kuala Lumpur (KL). 
+                    A Palo Alto Firewall will be deployed in each site with a LAN zone for staff and employees to connect to the internal network. 
+                    However, the Singapore site will have an additional Demilitarized (DMZ) zone for external and internal access where an FTP server will be deployed. 
+                    Users from the LAN and Internet will be able to access resources on the FTP server in the DMZ zone.
+                    Moreover, several policies were implemented on the firewall to enhance the security of the organization.
+                    Lastly, both firewalls will be connected to the Internet and a secure LAN-to-LAN Virtual Private Network will be configured using an IPSec tunnel between Singapore office and KL office.
                 </p>
-                <div className='table-responsive'>
-                    <table className='table'>
+            </div>
+            <div className='table-responsive'>
+                    <table className='table text-white'>
                         <thead className='thead-dark'>
                             <tr>
                                 <th scrol="col">Source</th>
@@ -66,9 +65,8 @@ const FirewallConfig = () => {
                         </tbody>
                     </table>
                 </div>
-                
-            </div>
-        </div>
+        </>
+        
      );
 }
  
