@@ -20,6 +20,22 @@ const Experience = () => {
                     <TimelineConnector />
                     </TimelineSeparator>
                     <TimelineContent>
+                        National Service 2023 - 2025
+                        <br/>
+                        <b>23<sup>rd</sup> Battalion Singapore Artillery (C Battery)</b>
+                        <br/>
+                        <p>
+                            Singapore Light Weight Howitzer (SLWH) Gunner
+                        </p>
+                    </TimelineContent>
+                </TimelineItem>
+
+                <TimelineItem>
+                    <TimelineSeparator>
+                    <TimelineDot />
+                    <TimelineConnector />
+                    </TimelineSeparator>
+                    <TimelineContent>
                         12 September 2022 - 27 January 2023
                         <br/>
                         <b>Security Research Intern / Centre for Strategic Infocomm Technologies (CSIT)</b>
