@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Personal-Website/static/css/main.8cc24da5.css",
-    "main.js": "/Personal-Website/static/js/main.1a571eb4.js",
+    "main.js": "/Personal-Website/static/js/main.792b1a7c.js",
     "static/js/787.1ed0c42c.chunk.js": "/Personal-Website/static/js/787.1ed0c42c.chunk.js",
     "static/media/Kubernetes BGP Hijacking.mp4": "/Personal-Website/static/media/Kubernetes BGP Hijacking.adc8b0b2257c87aacbee.mp4",
     "static/media/spendid.apk": "/Personal-Website/static/media/spendid.860ad55495d089e27106.apk",
@@ -39,11 +39,11 @@
     "static/media/hobbies-2.jpg": "/Personal-Website/static/media/hobbies-2.4526c1411b5f0d515ea0.jpg",
     "index.html": "/Personal-Website/index.html",
     "main.8cc24da5.css.map": "/Personal-Website/static/css/main.8cc24da5.css.map",
-    "main.1a571eb4.js.map": "/Personal-Website/static/js/main.1a571eb4.js.map",
+    "main.792b1a7c.js.map": "/Personal-Website/static/js/main.792b1a7c.js.map",
     "787.1ed0c42c.chunk.js.map": "/Personal-Website/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8cc24da5.css",
-    "static/js/main.1a571eb4.js"
+    "static/js/main.792b1a7c.js"
   ]
 }
