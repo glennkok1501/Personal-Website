@@ -11,12 +11,16 @@ const ImageGallery = ({images}) => {
 
     const next = () => {
         setSelected((selected + 1) % images.length)
-        console.log(selected)
+        // console.log(selected)
     }
 
     const previous = () => {
+        if (selected === 0) {
+            setSelected(images.length-1)
+            return
+        }
         setSelected((selected - 1) % images.length)
-        console.log(selected)
+        // console.log(selected)
     }
 
     return ( 

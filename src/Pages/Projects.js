@@ -20,10 +20,12 @@ import proj7 from '../Assets/projects/matt/matt.png'
 import proj8 from '../Assets/projects/spendid/img_1.png'
 import proj9 from '../Assets/projects/cat/img.jpg'
 import proj10 from '../Assets/projects/ctg/ctg.jpg'
+import proj11 from '../Assets/projects/pokezukan/pokezukan.png'
 import { Modal, ModalBody, ModalTitle } from "react-bootstrap";
 import { useState } from "react";
 import Icon from "@mdi/react";
 import { mdiClose } from "@mdi/js";
+import Pokezukan from "../Components/Projects/Pokezukan";
 
 
 const Projects = () => {
@@ -38,7 +40,9 @@ const Projects = () => {
         {"image":proj7, "title":"Malicious Doc Malware Analysis"},
         {"image":proj8, "title":"Finance Tracking Android App"},
         {"image":proj9, "title":"AWS Deployment"},
-        {"image":proj10, "title":"Chimera Encryption"}
+        {"image":proj10, "title":"Chimera Encryption"},
+        {"image":proj11, "title": "Pokemon App"}
+
     ]
 
     const [show, setShow] = useState(false)
@@ -64,6 +68,8 @@ const Projects = () => {
                 return <CAT />
             case projs[9].title:
                 return <Chimera />
+            case projs[[10]].title:
+                return <Pokezukan />
             default:
                 return <KubeBgpHijack />
         }

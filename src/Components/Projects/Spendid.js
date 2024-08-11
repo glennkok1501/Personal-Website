@@ -63,7 +63,7 @@ const Spendid = () => {
             <div className='d-flex justify-content-around'>
                 {
                     moreDetails.map((i) => (
-                        <a className='btn text-white' target="_blank" rel="noreferrer" href={i.link}>
+                        <a key={i.name} className='btn text-white' target="_blank" rel="noreferrer" href={i.link}>
                             <Icon className='text-white' path={i.icon} size={1} /> {i.name}
                         </a>
                     ))
