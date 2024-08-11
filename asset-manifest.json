@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Personal-Website/static/css/main.8cc24da5.css",
-    "main.js": "/Personal-Website/static/js/main.792b1a7c.js",
+    "main.js": "/Personal-Website/static/js/main.55f9e3fb.js",
     "static/js/787.1ed0c42c.chunk.js": "/Personal-Website/static/js/787.1ed0c42c.chunk.js",
     "static/media/Kubernetes BGP Hijacking.mp4": "/Personal-Website/static/media/Kubernetes BGP Hijacking.adc8b0b2257c87aacbee.mp4",
     "static/media/spendid.apk": "/Personal-Website/static/media/spendid.860ad55495d089e27106.apk",
     "static/media/df.png": "/Personal-Website/static/media/df.3d0d2a5a847b3f60aab4.png",
     "static/media/capstone_gallery_6.png": "/Personal-Website/static/media/capstone_gallery_6.bd157c440575573c80cb.png",
-    "static/media/fomal-pic_orig.png": "/Personal-Website/static/media/fomal-pic_orig.12015b8538b34a596e71.png",
-    "static/media/hobbies-3.jpg": "/Personal-Website/static/media/hobbies-3.ebad75d4f4d43efa0142.jpg",
     "static/media/ns_1.jpg": "/Personal-Website/static/media/ns_1.9e8c091b2ff35ad702a6.jpg",
     "static/media/hobbies-5.jpg": "/Personal-Website/static/media/hobbies-5.260796433895f4d210ef.jpg",
+    "static/media/pokezukan.png": "/Personal-Website/static/media/pokezukan.d5c79c83fec8f021e974.png",
     "static/media/capstone_gallery_4.png": "/Personal-Website/static/media/capstone_gallery_4.02df1fc599e086aae705.png",
+    "static/media/formal-pic2.jpg": "/Personal-Website/static/media/formal-pic2.89efe7cd0e6d7507fca9.jpg",
     "static/media/img_4.png": "/Personal-Website/static/media/img_4.60855c96777eaa5ec4cd.png",
     "static/media/img_1.png": "/Personal-Website/static/media/img_1.6528c1299a3ba90243a9.png",
     "static/media/img_8.png": "/Personal-Website/static/media/img_8.afd6fe61782c0583b41d.png",
@@ -19,6 +19,8 @@
     "static/media/capstone_gallery_1.png": "/Personal-Website/static/media/capstone_gallery_1.3612602f27ce0027bd7c.png",
     "static/media/img_6.png": "/Personal-Website/static/media/img_6.87f87a698f70f98d7100.png",
     "static/media/img_5.png": "/Personal-Website/static/media/img_5.de8927b484e6864e9c0a.png",
+    "static/media/hobbies-3.jpg": "/Personal-Website/static/media/hobbies-3.97b70699411297ced40e.jpg",
+    "static/media/hobbies-1.jpg": "/Personal-Website/static/media/hobbies-1.fc6b9bfee2be2655caa6.jpg",
     "static/media/img_2.png": "/Personal-Website/static/media/img_2.ac0b6a1d5650b6b4bc35.png",
     "static/media/img_1.jpg": "/Personal-Website/static/media/img_1.b5762948c7eab74d8d33.jpg",
     "static/media/img_7.png": "/Personal-Website/static/media/img_7.4132bc75d82fc011781c.png",
@@ -39,11 +41,11 @@
     "static/media/hobbies-2.jpg": "/Personal-Website/static/media/hobbies-2.4526c1411b5f0d515ea0.jpg",
     "index.html": "/Personal-Website/index.html",
     "main.8cc24da5.css.map": "/Personal-Website/static/css/main.8cc24da5.css.map",
-    "main.792b1a7c.js.map": "/Personal-Website/static/js/main.792b1a7c.js.map",
+    "main.55f9e3fb.js.map": "/Personal-Website/static/js/main.55f9e3fb.js.map",
     "787.1ed0c42c.chunk.js.map": "/Personal-Website/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8cc24da5.css",
-    "static/js/main.792b1a7c.js"
+    "static/js/main.55f9e3fb.js"
   ]
 }
