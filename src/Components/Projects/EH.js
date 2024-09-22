@@ -1,6 +1,7 @@
 import ImgView from "../ImageGallery/ImgView";
 import img_1 from '../../Assets/projects/eh/eh_diagram.png'
 import img_2 from '../../Assets/projects/eh/eh_diagram_2.png'
+import demo from '../../Assets/projects/eh/demo.mp4'
 
 const EH = () => {
     return ( 
@@ -21,6 +22,11 @@ const EH = () => {
                 to infiltrate networks isolated from the Internet via pivoting from the LAN zone to the Datacenter zone.
 
                 </p>
+            </div>
+            <div className='text-center mb-3'>
+                <video className='rounded p-3 bg-white' width="100%" height="auto" controls>
+                    <source src={demo} type="video/mp4" />
+                </video>
             </div>
             <b>Servers and Clients listed and Exploit:</b>
             <ul>

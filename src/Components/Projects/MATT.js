@@ -1,5 +1,8 @@
 import ImgView from "../ImageGallery/ImgView";
 import img from '../../Assets/projects/matt/matt.png'
+import report from '../../Assets/projects/matt/report.pdf'
+
+import ReportViewer from "./ReportViewer";
 const MATT = () => {
     return ( 
         <>
@@ -41,6 +44,9 @@ const MATT = () => {
                 After analyzing the intention and purpose of the malicious document, it is revealed that the type of malware is a dropper disguised as an Office Word Document file. Macros with malicious intent were embedded into the document which is designed to install malware from external sources onto the victim's computer upon opening the document.
                 </p>
             </div>
+
+            <ReportViewer file={report} />
+
         </>
         
      );

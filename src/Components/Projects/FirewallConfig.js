@@ -1,5 +1,7 @@
 import img from '../../Assets/projects/ns/ns_2.png'
 import ImgView from '../ImageGallery/ImgView';
+import report from '../../Assets/projects/ns/report.pdf'
+import ReportViewer from './ReportViewer';
 
 const FirewallConfig = () => {
     return ( 
@@ -65,6 +67,8 @@ const FirewallConfig = () => {
                         </tbody>
                     </table>
                 </div>
+
+                <ReportViewer file={report} />
         </>
         
      );
