@@ -14,6 +14,21 @@ const Education = () => {
                 padding: 0,
                 },
             }}>
+            <TimelineItem>
+                    <TimelineSeparator>
+                    <TimelineDot />
+                    <TimelineConnector />
+                    </TimelineSeparator>
+                    <TimelineContent>
+                        August 2025 - Current
+                        <br/>
+                        <b>Nanyang Technological University</b>
+                        <br/>
+                        <ul className='text-muted'>
+                            <li><p className='m-0'>Bachelor of Computing (Hons) in Computer Science</p></li>
+                        </ul>
+                    </TimelineContent>
+                </TimelineItem>
                 <TimelineItem>
                     <TimelineSeparator>
                     <TimelineDot />

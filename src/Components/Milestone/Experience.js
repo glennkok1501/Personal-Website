@@ -22,10 +22,12 @@ const Experience = () => {
                     <TimelineContent>
                         National Service 2023 - 2025
                         <br/>
-                        <b>23<sup>rd</sup> Battalion Singapore Artillery (C Battery)</b>
+                        <b>Arty Operator / 23<sup>rd</sup> Battalion Singapore Artillery (Charlie Battery)</b>
                         <br/>
                         <p>
-                            Singapore Light Weight Howitzer (SLWH) Gunner
+                            Singapore Light Weight Howitzer (SLWH)
+                            <br/>
+                            Corporal First Class
                         </p>
                     </TimelineContent>
                 </TimelineItem>
