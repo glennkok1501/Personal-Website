@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Personal-Website/static/css/main.8cc24da5.css",
-    "main.js": "/Personal-Website/static/js/main.3cc0275b.js",
+    "main.js": "/Personal-Website/static/js/main.58f8137c.js",
     "static/js/787.1ed0c42c.chunk.js": "/Personal-Website/static/js/787.1ed0c42c.chunk.js",
     "static/media/demo.mp4": "/Personal-Website/static/media/demo.ae1ceb3c39552913857e.mp4",
     "static/media/Kubernetes BGP Hijacking.mp4": "/Personal-Website/static/media/Kubernetes BGP Hijacking.adc8b0b2257c87aacbee.mp4",
@@ -10,9 +10,9 @@
     "static/media/report.pdf": "/Personal-Website/static/media/report.289ec3b1b955a80df7f1.pdf",
     "static/media/capstone_gallery_6.png": "/Personal-Website/static/media/capstone_gallery_6.bd157c440575573c80cb.png",
     "static/media/ns_1.jpg": "/Personal-Website/static/media/ns_1.9e8c091b2ff35ad702a6.jpg",
-    "static/media/hobbies-5.jpg": "/Personal-Website/static/media/hobbies-5.260796433895f4d210ef.jpg",
     "static/media/pokezukan.png": "/Personal-Website/static/media/pokezukan.d5c79c83fec8f021e974.png",
     "static/media/capstone_gallery_4.png": "/Personal-Website/static/media/capstone_gallery_4.02df1fc599e086aae705.png",
+    "static/media/hobbies-5.jpg": "/Personal-Website/static/media/hobbies-5.2ce80d845afa4c718a7d.jpg",
     "static/media/formal-pic2.jpg": "/Personal-Website/static/media/formal-pic2.89efe7cd0e6d7507fca9.jpg",
     "static/media/img_4.png": "/Personal-Website/static/media/img_4.60855c96777eaa5ec4cd.png",
     "static/media/img_1.png": "/Personal-Website/static/media/img_1.6528c1299a3ba90243a9.png",
@@ -21,13 +21,13 @@
     "static/media/capstone_gallery_1.png": "/Personal-Website/static/media/capstone_gallery_1.3612602f27ce0027bd7c.png",
     "static/media/img_6.png": "/Personal-Website/static/media/img_6.87f87a698f70f98d7100.png",
     "static/media/img_5.png": "/Personal-Website/static/media/img_5.de8927b484e6864e9c0a.png",
+    "static/media/GLENN KOK RESUME.pdf": "/Personal-Website/static/media/GLENN KOK RESUME.46452eb18bf704f96c05.pdf",
     "static/media/hobbies-3.jpg": "/Personal-Website/static/media/hobbies-3.97b70699411297ced40e.jpg",
     "static/media/hobbies-1.jpg": "/Personal-Website/static/media/hobbies-1.fc6b9bfee2be2655caa6.jpg",
     "static/media/img_2.png": "/Personal-Website/static/media/img_2.ac0b6a1d5650b6b4bc35.png",
     "static/media/img_1.jpg": "/Personal-Website/static/media/img_1.b5762948c7eab74d8d33.jpg",
     "static/media/img_7.png": "/Personal-Website/static/media/img_7.4132bc75d82fc011781c.png",
     "static/media/img_3.png": "/Personal-Website/static/media/img_3.e9694e3161b507202bf7.png",
-    "static/media/GLENN KOK RESUME.pdf": "/Personal-Website/static/media/GLENN KOK RESUME.09dba224d3d8f55d2de9.pdf",
     "static/media/img_crypt.png": "/Personal-Website/static/media/img_crypt.40ccce6649f5797d28ee.png",
     "static/media/img_10.png": "/Personal-Website/static/media/img_10.45706ff72d06f2d804a5.png",
     "static/media/Picture1.png": "/Personal-Website/static/media/Picture1.3fa829753d0775a2e0c5.png",
@@ -43,11 +43,11 @@
     "static/media/hobbies-2.jpg": "/Personal-Website/static/media/hobbies-2.4526c1411b5f0d515ea0.jpg",
     "index.html": "/Personal-Website/index.html",
     "main.8cc24da5.css.map": "/Personal-Website/static/css/main.8cc24da5.css.map",
-    "main.3cc0275b.js.map": "/Personal-Website/static/js/main.3cc0275b.js.map",
+    "main.58f8137c.js.map": "/Personal-Website/static/js/main.58f8137c.js.map",
     "787.1ed0c42c.chunk.js.map": "/Personal-Website/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8cc24da5.css",
-    "static/js/main.3cc0275b.js"
+    "static/js/main.58f8137c.js"
   ]
 }
