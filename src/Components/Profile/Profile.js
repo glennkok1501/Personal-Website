@@ -12,12 +12,18 @@ const Profile = () => {
             </div>
                 <div className='col-lg-6 text-lg-start text-center'>
                     <h1 className='mt-3'>
-                        Hi, I'm <b>Glenn Kok</b>
+                        Hi, I'm <b>Glenn</b>
                     </h1>
                     <p>
-                    My interest in cyber security developed during my course of study in Cyber and Network Security under the Institute of Technical Education,
-                    which led me to pursue a diploma in Cybersecurity & Digital Forensics in Ngee Ann Polytechnic.
-                    My aim is to pursue a career in the cyber security industry in the future after completing my studies in Nanyang Technological University.
+                    Graduated from Ngee Ann Polytechnic with a Diploma in Cyber Security & Digital Forensics. 
+                    My passion for cyber security began during my time at the Institute of Technical Education, 
+                    where I was first exposed to the world of digital threats and system vulnerabilities. 
+                    As I progressed in my studies, this interest deepened into a strong curiosity about how cyber attackers operate and how such threats can be countered effectively.
+                    <br/>
+                    <br/>
+                    Now, as I pursue a Computer Science degree at Nanyang Technological University (NTU), 
+                    I am excited to further expand my knowledge in cybersecurity, software engineering, 
+                    and digital defense, with the long-term goal of contributing to a safer digital world.
                     </p>
                 </div>
             </div>

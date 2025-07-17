@@ -14,6 +14,8 @@ const Details = () => {
             <p>
                 I am a self-motivated individual and creative team player eager to gain new experiences where I can utilize my technical skills and knowledge.
                 I strongly feel that Cyber Security is the path I want to take and my aim is to pursue a career in that Industry. Information Technology (IT) is a field that I believe I can excel in as I am a keen learner when it comes to any aspects of IT.
+                <br /><br />
+                During my National Service, I was a SLWH Artillery Operator in the 23rd Battalion Singapore Artillery, where I developed discipline, resilience, mental toughness, and truly learned the meaning of teamwork (because nothing says bonding like deploying camo-net).
             </p>
             
             <table className="table text-white">
